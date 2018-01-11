@@ -12,8 +12,11 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
+     font-family: 'Open Sans', sans-serif;
      border: 1px dotted gray;
      padding: 20px;
+     background-color: #ececec;
+     text-align: center;
 }
 
 .jumbotron {
@@ -35,4 +38,13 @@ body {
 
 .project {
      margin-left: 20px;
+}
+
+#ucsdschedule {
+     max-width: 25%;
+}
+
+#content {
+     background-color: white;
+     
 }
